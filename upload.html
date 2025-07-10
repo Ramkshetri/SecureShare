@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h3>Upload File</h3>
+<form method="POST" enctype="multipart/form-data">
+    <input type="file" name="file" class="form-control mb-3" required>
+    <button type="submit" class="btn btn-primary">Upload & Encrypt</button>
+</form>
+{% endblock %}
